@@ -229,6 +229,12 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.5s;
+}
+
+.boxes .box:hover {
+  width: 20%;
+  height: 150px;
 }
 
 /* ----Box Decoration---- */
@@ -320,6 +326,10 @@ footer nav a:hover {
   width: 370px;
 }
 
+.middle-about .text-container h2 {
+  margin-top: 10px;
+}
+
 .middle-about .text-container button {
   margin-top: 30px;
   background-color: white;
@@ -331,6 +341,15 @@ footer nav a:hover {
   font-size: 15px;
   font-weight: bold;
   padding: 5px;
+  transition: 0.2s;
+}
+
+.middle-about .text-container button:hover {
+  background-color: gray;
+  cursor: pointer;
+  font-size: 15px;
+  width: 50%;
+  height: 40px;
 }
 
 hr {
