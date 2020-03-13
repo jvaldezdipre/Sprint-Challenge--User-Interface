@@ -176,6 +176,12 @@ p {
   text-decoration: none;
   color: black;
   font-size: 15px;
+  transition: 0.2s;
+}
+
+.links a:hover {
+  color: gray;
+  font-size: 20px;
 }
 
 /* ----Top Content---- */
@@ -255,7 +261,6 @@ p {
 .nine {
   background: indigo !important;
 }
-
 .ten {
   background: dodgerblue !important;
 }
@@ -293,6 +298,11 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+  transition: 0.2s;
+}
+
+footer nav a:hover {
+  font-size: 20px;
 }
 
 /* ----------About---------- */
