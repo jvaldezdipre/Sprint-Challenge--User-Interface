@@ -214,7 +214,7 @@ p {
   justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.boxes .box {
   width: 12.5%;
   height: 100px;
   background: black;
@@ -226,6 +226,39 @@ p {
 }
 
 /* ----Box Decoration---- */
+
+.one {
+  background: teal !important ;
+}
+
+.two {
+  background: gold !important;
+}
+.three {
+  background: cadetblue !important;
+}
+.four {
+  background: coral !important;
+}
+.five {
+  background: crimson !important;
+}
+.six {
+  background: forestgreen !important;
+}
+.seven {
+  background: darkorchid !important;
+}
+.eight {
+  background: hotpink !important;
+}
+.nine {
+  background: indigo !important;
+}
+
+.ten {
+  background: dodgerblue !important;
+}
 
 /* ----Bottom Content---- */
 .bottom-content {
@@ -286,6 +319,8 @@ footer nav a {
   width: 40%;
   height: 30px;
   font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
 }
 
 hr {
@@ -300,4 +335,9 @@ hr {
 
 .strat-text {
   width: 100%;
+}
+
+/* ---- Bottom About ---- */
+.bottom-about {
+  margin: 20px 0px 40px 0px;
 }
